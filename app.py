@@ -76,7 +76,7 @@ data_preparada.head()
 Y_pred = model_rf.predict(data_preparada)
 print(Y_pred)
 
-data_preparada['Prediccion'] = Y_pred
-data_preparada.head()
+data['Prediccion'] = Y_pred
+data.head()
 #Predicciones finales
-data_preparada
+data
