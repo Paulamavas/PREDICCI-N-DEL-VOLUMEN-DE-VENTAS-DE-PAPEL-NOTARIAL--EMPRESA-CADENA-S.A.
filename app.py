@@ -36,8 +36,8 @@ import streamlit as st
 st.title('PREDICCIÓN DEL VOLUMEN DE VENTAS DE PAPEL NOTARIAL  -EMPRESA CADENA S.A.')
 
 Proveedor_único = st.selectbox('Proveedor_único', ['SI','NO'])
-Mes = st.selectbox('Mes', ["'1'","'2'", "'3'","'4'","'5'","'6'","'7'","'8'","'9'","'10'","'11'","'12'"])
-Días_Hábiles = st.selectbox('Días_Hábiles', ["'20'","'21'", "'22'","'23'"])
+Mes = st.selectbox('Mes', ['1','2','3','4','5','6','7','8','9','10','11','12'])
+Días_Hábiles = st.selectbox('Días_Hábiles', ['20','21', '22','23'])
 tasa_interés_hipotecario = st.slider('tasa_interés_hipotecario', min_value=5.0, max_value=20.0, value=10.15, step=0.01)
 Desembolsos_créditos_hipotecarios = st.slider('Desembolsos_créditos_hipotecarios', min_value=10000, max_value=15000, value=13000, step=1)
 Notarías_atendidas = st.slider('Notarías_atendidas', min_value=300, max_value=1500, value=600, step=1)
