@@ -28,8 +28,6 @@ model_Tree, model_Knn, model_NN, min_max_scaler,model_rf, variables = pickle.loa
 #data = pd.read_excel("Notarios_datosFuturos.xlsx")
 #data.head()
 
-!pip install streamlit
-
 #Interfaz gráfica
 #Se crea interfaz gráfica con streamlit para captura de los datos
 
