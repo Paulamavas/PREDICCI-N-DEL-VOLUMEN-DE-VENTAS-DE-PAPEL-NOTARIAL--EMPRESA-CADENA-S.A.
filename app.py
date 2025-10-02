@@ -42,7 +42,7 @@ tasa_interés_hipotecario = st.slider('tasa_interés_hipotecario', min_value=5.0
 Desembolsos_créditos_hipotecarios = st.slider('Desembolsos_créditos_hipotecarios', min_value=10000, max_value=15000, value=13000, step=1)
 Notarías_atendidas = st.slider('Notarías_atendidas', min_value=300, max_value=1500, value=600, step=1)
 Inflación_mes = st.slider('Inflación_mes', min_value=3.0, max_value=15.0, value=5.15, step=0.01)
-Tasa_desempleo = st.slider('Inflación_mes', min_value=3.0, max_value=20.0, value=8.15, step=0.01)
+Tasa_desempleo = st.slider('Tasa_desempleo', min_value=3.0, max_value=20.0, value=8.15, step=0.01)
 
 
 #Dataframe
