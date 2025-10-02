@@ -78,3 +78,5 @@ print(Y_pred)
 
 data_preparada['Prediccion'] = Y_pred
 data_preparada.head()
+#Predicciones finales
+data
